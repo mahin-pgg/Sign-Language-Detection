@@ -2,7 +2,7 @@ import os
 
 import cv2
 
-data_directory = 'D:\Machine Learning Projects\Sign-Language-Detection'
+data_directory = 'D:\Machine Learning Projects\Sign-Language-Detection\data'
 
 if not os.path.exists(data_directory):
     os.makedirs(data_directory)
