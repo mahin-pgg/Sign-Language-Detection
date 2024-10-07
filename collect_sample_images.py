@@ -7,7 +7,7 @@ data_directory = 'D:\Machine Learning Projects\Sign-Language-Detection\data'
 if not os.path.exists(data_directory):
     os.makedirs(data_directory)
 
-number_of_classes = 3
+number_of_classes = 26
 sample_image_dataset_size = 100
 
 cap = cv2.VideoCapture(0)
